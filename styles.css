@@ -90,7 +90,10 @@ h2 + p {
     /* background-color: var(--red); */
     width: 320px;
     height: 3px;
-    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 10px;
     position: absolute;
     inset: 0; /* this is the shorthand declartation for top, right, bottom, and left */
 
